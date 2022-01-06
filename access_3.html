@@ -140,14 +140,19 @@
 <p>To initiate a tmux session in the Appliance terminal window enter:</p>
 <pre><code>tmux new -s &lt;name&gt;
 </code></pre>
-<p>For example, you can name your session <code>Idris</code>:</p>
-<pre><code>tmux new -s Idris
+<p>For example, you can name your session <code>idris</code>:</p>
+<pre><code>tmux new -s idris
 </code></pre>
+<hr />
 <h2 id="note">Note</h2>
-<p>You can have more than one tmux session, each with a different name. </p>
-<p>To detach from a session hold down the Ctrl key and press <code>b</code>, release both keys, then press <code>d</code>. </p>
-<p>To list existing tmux sessions use <code>tmux ls</code>. To reconnect to an existing session use  <code>tmux a -t &lt;name&gt;</code>. </p>
-<p>These commands only work outside of tmux; they are not functional when attached to a session. </p>
+<ul>
+<li> You can open more than one tmux session, each with a different name.                       </li>
+<li> To detach from a session hold down the Ctrl key and press `b`, release both keys, then press `d`.  </li>
+<li> To list existing tmux sessions use `tmux ls`.                              </li>
+<li> To reconnect to an existing session use  `tmux a -t 'name'`.                       </li>
+</ul>
+
+<p>These commands only work outside of tmux; they are not functional inside a tmux session.</p>
               
             </div>
           </div>

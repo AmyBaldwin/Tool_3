@@ -129,8 +129,39 @@
             <div class="section">
               
                 <h1 id="welcome-to-the-user-manual-for-tool-3">Welcome to the User Manual for Tool 3</h1>
-<p>Tool 3 is one of several informatic genomics tools that allow you to explore bacterial genomes.</p>
-<p>It was developed as part of a KTP project between Volac International Ltd. and Cardiff University.</p>
+<p>This Tool is part of a suite of genome analysis tools that explore bacterial genomes. The suite includes:</p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The Core</td>
+<td align="left">Genome assembly, taxonomic classification, phylogeny, annotation and mass screening.</td>
+</tr>
+<tr>
+<td>Tool 1</td>
+<td align="left">Mass screening with curated databases.</td>
+</tr>
+<tr>
+<td>Tool 2</td>
+<td align="left">Mass screening with genes you choose.</td>
+</tr>
+<tr>
+<td>Tool 3</td>
+<td align="left">Comparison of genomes, and phylogeny.</td>
+</tr>
+<tr>
+<td>Tool 4</td>
+<td align="left">Primer design: identification of unique stretches of DNA.</td>
+</tr>
+</tbody>
+</table>
+<p>They are built with the pipeline manager, <a href="https://www.nextflow.io/">Nextflow</a> and operate within <a href="https://sylabs.io/singularity">Singularity</a> containers.</p>
+<p>The suite was developed as part of a collaborative project between <a href="https://www.volac.com/">Volac International Ltd</a>. and <a href="https://www.cardiff.ac.uk/">Cardiff University</a>, partly funded by <a href="https://www.gov.uk/government/organisations/innovate-uk">Innovate UK</a> as part of a <a href="https://www.ktp-uk.org/">knowledge transfer partnership (KTP)</a>.</p>
 <h2 id="what-is-tool-3-for">What is Tool 3 for?</h2>
 <p>Tool 3 compares the gene make up between strains. </p>
 <p>You might want to discover which genes are unique to a particular strain, or which strains are most closely related.</p>
@@ -138,7 +169,7 @@
 <p>Tool 3 compares the genomes of two or more bacterial strains. It looks at their annotated genomes and reports the presence or absence of every gene, for all strains. </p>
 <p>For example, Tool 3 reports which genes are present in every strain; these are the core genes. Also, which genes are unique to a strain. </p>
 <p>Additionally, Tool 3 draws a tree based on this comparison.</p>
-<p>Tool 3 is a wrapper for the <code>roary</code> and <code>fasttree</code> software tools.</p>
+<p>Tool 3 utilses the <a href="https://sanger-pathogens.github.io/Roary/">Roary</a> and <a href="http://www.microbesonline.org/fasttree/">FastTree</a> software tools.</p>
               
             </div>
           </div>
@@ -197,5 +228,5 @@
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-01-06 12:23:58.807924+00:00
+Build Date UTC : 2022-01-06 15:15:19.743012+00:00
 -->
